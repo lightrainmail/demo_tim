@@ -11,10 +11,10 @@
 				<Option working_dir="C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo_tim.elf">
@@ -40,10 +40,10 @@
 					<Add directory="c:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_tim.elf"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_tim.elf"/>
+					<CompileFile command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo_tim.elf/fast">
@@ -69,30 +69,30 @@
 					<Add directory="c:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_tim.elf/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_tim.elf/fast"/>
+					<CompileFile command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/14806/OneDrive/Desktop/demo_tim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

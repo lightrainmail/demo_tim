@@ -88,15 +88,24 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
-  MX_TIM6_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-    HAL_TIM_Base_Start_IT(&htim6);
+    HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+
+    uint32_t CCR1=0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    for(CCR1;CCR1<=10000;CCR1++){
+        __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,CCR1);
+        HAL_Delay(10);
+        if(CCR1==10000){
+            CCR1=0;
+        }
+    }
 
     /* USER CODE END WHILE */
 

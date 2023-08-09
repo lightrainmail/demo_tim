@@ -44,3 +44,28 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 HAL_TIM_Base_Start_IT(&htim6);		//启动定时器
 ```
 
+然后下载你就可以看到LED灯亮一秒灭一秒
+
+# 通用定时器
+
+使用通用定时器的输出比较功能产生PWM波
+
+![02AAE8989845410436BF37FC5FA44958](assets/02AAE8989845410436BF37FC5FA44958.png)
+
+参数按照上图设定
+
+
+
+最多再把PA0 GPIO口的速度调到最大
+
+![image-20230809101138227](assets/image-20230809101138227.png)
+
+
+
+在程序中就只需要开启PWM输出就行了,用以下函数
+
+```c
+HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+```
+
+然后你就会在PA0口用示波器观察到输出的PWM波
